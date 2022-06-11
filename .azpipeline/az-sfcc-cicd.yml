@@ -32,3 +32,4 @@ steps:
 - script: |
     npm run uploadCartridge "app*, int*, bc*"
   displayName: 'Upload cartridges'
+- task: SonarCloudAnalyze@1
